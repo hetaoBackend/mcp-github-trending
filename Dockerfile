@@ -23,11 +23,10 @@ ADD . /app
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --frozen --no-dev --no-editable
 
-FROM python:3.12-slim-bookworm
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim
 
 WORKDIR /app
 
-COPY --from=uv /root/.local /root/.local
 COPY --from=uv --chown=app:app /app/.venv /app/.venv
 
 # Place executables in the environment at the front of the path
