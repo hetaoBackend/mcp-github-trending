@@ -158,3 +158,7 @@ npx @modelcontextprotocol/inspector uv --directory /path/to/mcp-github-trending 
 ```
 
 The Inspector will display a URL that you can access in your browser to begin debugging.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
