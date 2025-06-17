@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/hetaobackend-mcp-github-trending-badge.png)](https://mseep.ai/app/hetaobackend-mcp-github-trending)
+
 # mcp-github-trending MCP Server
 
 A MCP server that provides access to GitHub trending repositories and developers data through a simple API interface.
