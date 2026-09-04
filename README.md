@@ -4,7 +4,7 @@
 
 A MCP server that provides access to GitHub trending repositories and developers data through a simple API interface.
 
-[![smithery badge](https://smithery.ai/badge/@hetaoBackend/github-trending-mcp-server)](https://smithery.ai/server/@hetaoBackend/github-trending-mcp-server)
+[![LightNow](https://lightnow.ai/badge/io.github.hetaobackend/mcp-github-trending)](https://lightnow.ai/servers/io.github.hetaobackend/mcp-github-trending)
 
 ## Features
 
