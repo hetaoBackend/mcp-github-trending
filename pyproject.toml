@@ -17,9 +17,9 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "gtrending>=0.5.1",
-    "mcp>=1.0.0",
-    "pydantic>=2.0.0",
+    "gtrending~=0.5.1",
+    "mcp~=1.0",
+    "pydantic~=2.0",
 ]
 
 [project.scripts]
@@ -31,8 +31,8 @@ build-backend = "hatchling.build"
 
 [tool.uv]
 dev-dependencies = [
-    "pytest>=8.3.3",
-    "ruff>=0.8.1",
+    "pytest~=8.3",
+    "ruff~=0.8.1",
 ]
 
 [tool.hatch.build.targets.wheel]
